@@ -1,5 +1,4 @@
 // go-callvis: a tool to help visualize the call graph of a Go program.
-//
 package main
 
 import (
@@ -119,6 +118,9 @@ func outputDot(fname string, outputFormat string) {
 }
 
 //noinspection GoUnhandledErrorResult
+/*
+parse flag, new analysis, create route handler
+*/
 func main() {
 	flag.Parse()
 
